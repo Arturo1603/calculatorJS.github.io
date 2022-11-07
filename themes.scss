@@ -1,0 +1,191 @@
+/*THEME ONE*/
+$bg_theme1: #3b4664da;
+$bg_screen1: #181f32;
+$bg_actionBtn1: #647299;
+$bg_outputBtn1: #c85401;
+$bg_wrapperTheme1: #252d44;
+$bg_basicFunction1: #252d44;
+$shadow_outputBtn1: #902418;
+$shadow_actionBtn1: #3f4b6c;
+$color_dark1: #343429;
+$color_light1: #fcfefc;
+/*THEME TWO*/
+$bg_theme2: #e6e6e6;
+$bg_screen2: #eeeeee;
+$bg_actionBtn2: #388187;
+$bg_outputBtn2: #c85401;
+$bg_wrapperTheme2: #d4cccb;
+$bg_basicFunction2: #d3cdcd;
+$shadow_outputBtn2: #883903;
+$shadow_actionBtn2: #1c5f66;
+$color_dark2: #343429;
+/*THEME THREE*/
+$bg_theme3: #17062a;
+$bg_screen3: #1e0836;
+$bg_actionBtn3: #56077c;
+$bg_outputBtn3: #00decf;
+$bg_wrapperTheme3: #1e0836;
+$bg_basicFunction3: #1e0836;
+$bg_btnTheme3: #01ded4;
+$shadow_outputBtn3: #68f9f2;
+$shadow_actionBtn3: #9511c5;
+$color_almostYellow3: #f1da45;
+
+
+body#theme1 {
+    background-color: $bg_theme1;
+
+    header {
+        h1 {
+            color: $color_light1;
+        }
+
+        .switch-style {
+            span {
+                color: $color_light1;
+            }
+
+            .switch-box {
+                background-color: $bg_wrapperTheme1;
+
+                .switch-button {
+                    background-color: $bg_outputBtn1;
+                }
+            }
+        }
+    }
+
+    main {
+        .screen {
+            background-color: $bg_screen1;
+        }
+
+        .basic-functions {
+            background-color: $bg_basicFunction1;
+        }
+    }
+}
+
+body#theme2 {
+    background-color: $bg_theme2;
+
+    header {
+        h1 {
+            color: $color_dark2;
+        }
+
+        .switch-style {
+            span {
+                color: $color_dark2;
+            }
+
+            .switch-box {
+                background-color: $bg_wrapperTheme2;
+
+                .switch-button {
+                    background-color: $bg_outputBtn2;
+                }
+            }
+        }
+    }
+
+    main {
+        .screen {
+            background-color: $bg_screen2;
+
+            .historial {
+                color: rgb(56, 53, 48);
+            }
+
+            input[type="text"] {
+                color: $color_dark2;
+            }
+        }
+
+        .basic-functions {
+            background-color: $bg_basicFunction2;
+        }
+    }
+
+    footer {
+        .attribution {
+            color: rgb(255, 255, 255);
+            font-size: 11px;
+            text-align: center;
+            padding: 1.6em;
+        }
+
+        .attribution a {
+            color: #ff0;
+        }
+    }
+}
+
+body#theme3 {
+    background-color: $bg_theme3;
+
+    header {
+        h1 {
+            color: $color_almostYellow3;
+        }
+
+        .switch-style {
+            span {
+                color: $color_almostYellow3;
+            }
+
+            .switch-box {
+                background-color: $bg_wrapperTheme3;
+
+                .switch-button {
+                    background-color: $bg_outputBtn3;
+                }
+            }
+        }
+    }
+
+    main {
+        .screen {
+            background-color: $bg_screen3;
+
+            .historial {
+                color: rgb(56, 53, 48);
+            }
+
+            input[type="text"] {
+                color: $bg_actionBtn3;
+            }
+        }
+
+        .basic-functions {
+            background-color: $bg_basicFunction3;
+            .btnNum, .symbolType {
+                background-color: #331b4d;
+                color: $color_almostYellow3;
+            }
+            #del, #reset {
+                color: #fff;
+                background-color: $bg_outputBtn3;
+                box-shadow: 0 0 0.19rem $shadow_actionBtn3;
+            }
+            #output {
+                background-color: $bg_outputBtn3;
+                color: #000;
+                box-shadow: 0 0 0.19rem $shadow_outputBtn3;
+            }
+        }
+    }
+
+    footer {
+        .attribution {
+            color: #fff;
+            font-size: 11px;
+            text-align: center;
+            padding: 1.6em;
+        }
+
+        .attribution a {
+            color: #ff0;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background-color: white; */
+
+
+}
+body{
+
+}
+.calculator {
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.header-calculator {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.board-calculator {
+    height: 20%;
+    width: 100%;
+    background-color: #242C46;
+    margin: 40px 0;
+    border-radius: 8px;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 25px;
+    font-size: 32px;
+}

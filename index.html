@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+ 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="themes.css">
+  
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body id="theme1">
+  <header>
+    <h1>calc</h1>
+    <div class="switch-style">
+      <span>THEME</span>
+      <div class="switch-box" id="circle-theme">
+        <div class="switch-button-text">
+          <span id="theme_1">1</span>
+          <span id="theme_2">2</span>
+          <span id="theme_3">3</span>
+        </div>
+        <div class="switch-button" aria-hidden="true"></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="screen">
+      <div class="historial"></div>
+      <input type="text" class="result" aria-label="output" placeholder="9" disabled>
+    </div>
+    <div class="basic-functions">
+      <div class="col">
+        <button class="btnNum" value="7">7</button>
+        <button class="btnNum" value="4">4</button>
+        <button class="btnNum" value="1">1</button>
+        <button class="btnNum" value="decmal" aria-label="decimal">.</button>
+      </div>
+      <div class="col">
+        <button class="btnNum" value="8">8</button>
+        <button class="btnNum" value="5">5</button>
+        <button class="btnNum" value="2">2</button>
+        <button class="btnNum" value="0">0</button>
+      </div>
+      <div class="col">
+        <button class="btnNum" value="9">9</button>
+        <button class="btnNum" value="6">6</button>
+        <button class="btnNum" value="3">3</button>
+        <button class="symbolType" value="/">/</button>
+      </div>
+      <div class="col">
+        <button class="symbolType" id="del" value="del">DEL</button>
+        <button class="symbolType" value="+">+</button>
+        <button class="symbolType" value="-">-</button>
+        <button class="symbolType" value="x">x</button>
+      </div>
+      <div class="buttons">
+        <button id="reset" value="reset">RESET</button>
+        <button id="output" value="output" aria-label="output">=</button>
+      </div>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Arturo Chaparro</a>.
+  </div>
+  <script src="calculator.js"></script>
+</body>
+
+</html>

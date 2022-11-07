@@ -1,0 +1,112 @@
+/*THEME ONE*/
+/*THEME TWO*/
+/*THEME THREE*/
+body#theme1 {
+  background-color: rgba(59, 70, 100, 0.8549019608);
+}
+body#theme1 header h1 {
+  color: #fcfefc;
+}
+body#theme1 header .switch-style span {
+  color: #fcfefc;
+}
+body#theme1 header .switch-style .switch-box {
+  background-color: #252d44;
+}
+body#theme1 header .switch-style .switch-box .switch-button {
+  background-color: #c85401;
+}
+body#theme1 main .screen {
+  background-color: #181f32;
+}
+body#theme1 main .basic-functions {
+  background-color: #252d44;
+}
+
+body#theme2 {
+  background-color: #e6e6e6;
+}
+body#theme2 header h1 {
+  color: #343429;
+}
+body#theme2 header .switch-style span {
+  color: #343429;
+}
+body#theme2 header .switch-style .switch-box {
+  background-color: #d4cccb;
+}
+body#theme2 header .switch-style .switch-box .switch-button {
+  background-color: #c85401;
+}
+body#theme2 main .screen {
+  background-color: #eeeeee;
+}
+body#theme2 main .screen .historial {
+  color: rgb(56, 53, 48);
+}
+body#theme2 main .screen input[type=text] {
+  color: #343429;
+}
+body#theme2 main .basic-functions {
+  background-color: #d3cdcd;
+}
+body#theme2 footer .attribution {
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  text-align: center;
+  padding: 1.6em;
+}
+body#theme2 footer .attribution a {
+  color: #ff0;
+}
+
+body#theme3 {
+  background-color: #17062a;
+}
+body#theme3 header h1 {
+  color: #f1da45;
+}
+body#theme3 header .switch-style span {
+  color: #f1da45;
+}
+body#theme3 header .switch-style .switch-box {
+  background-color: #1e0836;
+}
+body#theme3 header .switch-style .switch-box .switch-button {
+  background-color: #00decf;
+}
+body#theme3 main .screen {
+  background-color: #1e0836;
+}
+body#theme3 main .screen .historial {
+  color: rgb(56, 53, 48);
+}
+body#theme3 main .screen input[type=text] {
+  color: #56077c;
+}
+body#theme3 main .basic-functions {
+  background-color: #1e0836;
+}
+body#theme3 main .basic-functions .btnNum, body#theme3 main .basic-functions .symbolType {
+  background-color: #331b4d;
+  color: #f1da45;
+}
+body#theme3 main .basic-functions #del, body#theme3 main .basic-functions #reset {
+  color: #fff;
+  background-color: #00decf;
+  box-shadow: 0 0 0.19rem #9511c5;
+}
+body#theme3 main .basic-functions #output {
+  background-color: #00decf;
+  color: #000;
+  box-shadow: 0 0 0.19rem #68f9f2;
+}
+body#theme3 footer .attribution {
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+  padding: 1.6em;
+}
+body#theme3 footer .attribution a {
+  color: #ff0;
+}/*# sourceMappingURL=themes.css.map */
